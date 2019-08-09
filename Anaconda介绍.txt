@@ -1,0 +1,63 @@
+Anaconda官网：  https://anaconda.org/
+Anaconda入门：  http://docs.anaconda.com/anaconda/user-guide/getting-started/
+
+各种python库的存放位置，可以从Github下载可用的库，然后放着路径即可调用。
+----  E:\ofAnaconda\Lib\site-packages\
+****---------------------------------------
+****注意：有时候用pip已经安装好的包，在python仍然导入不了？
+****去E:\ofAnaconda\Lib\site-packages\把包复制到
+****     E:\ofPython\ofInstallPython\Lib中即可
+****---------------------------------------
+---linux install anaconda 
+https://www.jianshu.com/p/f7c341085746
+
+解决中文注释无法编译的问题
+# -*- coding: utf-8 -*-
+
+查看Anaconda内置的Python版本的方法
+conda activate
+python -V
+----------------------------------------
+常用python库的安装方法：
+总结：先用anaconda安装法，没装好再用pip安装，有时候安装失败是网络卡了，多试几次
+
+conda list //查看已安装好的库
+
+pip install 库名
+
+pip install 库名 --upgrade
+
+或者
+
+conda install 库名
+
+conda update 库名
+      //直接用conda也适合没有安装pip的Linux系统
+conda update --all
+ 
+    //更新所有库
+conda update conda
+     //更新 conda 自身
+
+conda update anaconda  //更新 anaconda 自身
+
+
+
+要安装最新版本的“SomeProject”：
+pip install "SomeProject"
+
+要安装特定版本：
+pip install "SomeProject==1.4"
+
+要安装大于或等于一个版本而不是另一个版本：
+pip install "SomeProject>=1,<2"
+
+安装一个版本 与某个版本 “兼容”： 
+pip install "SomeProject~=1.4.2"
+在这种情况下，这意味着安装任何版本“== 1.4。*”版本也是“> = 1.4.2”。
+
+将已安装的SomeProject从PyPI 升级到最新版本。
+pip install --upgrade SomeProject
+-----------------------------------------
+Anaconda常用python库：
+先安装Theano在安装Pymc3，不然pymc3装不上。

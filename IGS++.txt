@@ -1,0 +1,30 @@
+总结了近年常用的数据网址，希望能对你有所帮助。
+GNSS产品下载地址总结
+1.       MGEX测站坐标：ftp://ftp.cddis.eosdis.nasa.gov/gnss/products/1907/igs开头的snx文件中含MGEX坐标。
+2.       MGEX观测数据： 
+
+ftp://igs.ign.fr/pub/igs/data/campaign/mgex/daily/rinex3/
+
+3.       MGEX精密星历星钟ERP产品：ftp://igs.ign.fr/pub/igs/products/mgex/ GBM或武大的都有北斗产品。
+4.       MGEX广播星历（p文件）：ftp://cddis.gsfc.nasa.gov/gnss/data/campaign/mgex/daily/rinex3/2014/brdm/
+5.       SOPAC网站：可以下载观测数据 测站坐标及速度等，非常实用。http://sopac.ucsd.edu/sector.shtml
+6.       IGS产品精度分析：http://beta.igs.org/products/data
+7.       CODE分析中心使用的各种信息文件（配合BERNESE）: ftp://ftp.unibe.ch/BSWUSER52/
+8.       IGG的多系统DCB产：ftp://cddis.gsfc.nasa.gov/pub/gps/products/mgex/dcb/　（测地所提交至IGS的多系统DCB产品的文件名为：CAS0MGXRAP_0000_01D_01D_DCB.BSX）
+9.       地球自转参数EOP文件 https://www.iers.org/IERS/EN/DataProducts/EarthOrientationData/eop.html
+10.    ATX天线相位中心文件：http://reason.scign.org/input/processing/gamit/tables/ svnav.dat（卫星PCO出厂值）
+11.    推荐网站
+谷歌学术 谷歌官网 SCIHUB 网址自行搜索
+12.   推荐期刊：
+GPS Solution      ：https://link.springer.com/journal/volumesAndIssues/10291
+Journal of Geodesy：https://link.springer.com/journal/volumesAndIssues/190
+Advances in Space Research ：http://www.sciencedirect.com/journal/advances-in-space-research
+
+https://gps.stanford.edu/resources/overview    //---斯坦福大学GPS Lab网址:MAAST,文献等资料
+http://semisys.gfz-potsdam.de/semisys/scripts/download/  //--德国波兹坦GFZ分析中心，gfzrnx,以及一些实用软件
+
+ http://mgex.igs.org/IGS_MGEX_Status_BDS.php
+http://www.igmas.org/   //iGMax官网
+
+https://www.blackdotgnss.com/2018/12/04/farewell-blackdotgnss/ NRCan在线PPP软件的源码已公开！
+https://github.com/CGS-GIS/GPSPACE

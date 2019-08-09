@@ -1,0 +1,35 @@
+实例1：找到所有c目录及其下任意子目录的txt文件 c:\windows*.txt
+
+实例2：找出所有bmp和jpg文件 *.bmp | *.jpg
+
+实例3：找出所有名为download文件夹下的所有avi文件 download\ .avi
+
+实例4：找出所有名字中含.tx的文件夹 folder:.tx
+
+实例5：搜索空txt文件 *.txt file:size:0
+
+实例6：搜索所有大于1MB的常见图像文件 <*.bmp|*.jpg|*.png|*.tga> size:>1mb
+
+实例7：查找所有全字匹配1.txt的文件 ww:1.txt
+
+实例8：查找wi开头的h文件和cpp文件 file:<wi*.h|wi*.cpp> 或wi* <ext:h|cpp>
+
+实例9：d盘2016/1/1至2016/6/1的修改过的word文件 *.doc|*docx dm:2015/1-2015/6
+
+实例10：XXX第N集.rmvb"，XXX是电视剧名，N是数字 regex:.*第[0-9]+集
+
+实例11：连续的RAR压缩包 XXXX.partN.rar regex:.*part[0-9]+.rar
+
+实例12：连续的ZIP压缩包 XXXX.zN regex:.*.z[0-9]+
+
+实例13：搜索所有纯中文目标 regex:^[^0-9a-z]*$
+
+实例14：搜索带中文字符的目标 regex:^.*[^!-~]+.*$
+
+实例15：找到所有c:\windows目录下的txt文件 regex:c:\windows^*.txt
+
+实例16：列出所有c:\windows的N级子目录 regex:c:\windows^*(^*){N}$
+
+实例17：列出所有c:\windows的N级子目录下的txt文件 regex:c:\windows^*(^*){N}.txt$
+
+?

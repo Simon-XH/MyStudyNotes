@@ -1,0 +1,112 @@
+#include<iostream> 
+#include<fstream>   //    文件操作
+#include<cmath>     //    数学函数
+#include<string>     //   字符串操作
+#include<iomanip>    //   输出格式
+#include"stdlib.h"     //  杂项函数：格式转换（atoi,atol）,随机数生成
+#include<time.h>        //程序计时
+//#include"memory.h"      // 数组复制
+//#include<io.h>        //处理文件夹
+//#include"afxtempl.h"   // CArray 动态数组
+//#include<vector>       //vector动态数组   
+#include<list> 
+using namespace std;
+
+ppt->rar->medio
+
+在VS2008中，选定代码后，按Ctrl+K+F组合键，可以自动进行代码对齐。 matlab为Ctrl+I
+
+注意：要先按下Ctrl和K，再按下F，因为Ctrl+F是查找的快捷键。
+
+也可以先按下Ctrl+K，再按下Ctrl+F。  matlab为Ctrl+I
+
+另外，可以在“工具->选项->文本编辑器->C/C++->制表符”选项卡中设置缩进选项。
+
+英文版本的路径为：Tools->Options->Text Editor->C/C++->Tabs
+
+注释选定代码：Ctrl+K+C
+
+取消注释选定的代码：Ctrl+K+U
+
+将选定行代码变为小写字母：Ctrl+U
+
+将选定行代码变为大写字母：Ctrl+Shift+U
+
+切换 显示空格符：Ctrl+R+W
+
+3、弹出对话框：
+   MessageBox(NULL,TEXT("对话框标题"),TEXT("内容"),MB_OK);
+
+4、//程序计时函数（头文件加time.h）：
+	clock_t begin_of_time, end_of_time;
+	double totaltime;
+	begin_of_time = clock();
+        ...
+        ...程序代码
+        ...
+	end_of_time = clock();
+	totaltime = (double)(begin_of_time - end_of_time) / CLOCKS_PER_SEC;
+	cout << "\nSpend time for" << fabs(totaltime) << "  seconds！" << endl;
+
+#pragma region XXX
+   ....
+   ....
+#pragma endregion
+代码块的作用，在两句话中间写代码，在第一句的前面会有个加号，点击能折叠和展开代码
+
+	cout << "Error:Seleck_Satellite_Method1():SatellitePosition[i].El=\n";
+	MessageBox(NULL, TEXT("Some Questions need to Debug"), TEXT("Warning"), MB_OK);
+	cout << "Continue(Y/y) or Exit Dubeg(N/n):";
+	char YN = getchar();
+	if (YN == 'N' || YN == 'n') exit(1);
+
+outfile << setw(19) << std::setprecision(6) <<
+ std::setiosflags(ios::showpoint | ios::fixed ) <<GpsRecPosition[i].XX ;
+
+以后大家投稿时，再增加一个单文：
+中文名称：地理国情监测国家测绘地理信息局工程技术研究中心。
+English name：National Administration of Surveying, Mapping and Geoinformationengineering Research Center of Geographic National Conditions Monitoring.
+
+1. 长安大学地质工程与测绘学院，陕西，西安， 710054
+2. 地理信息工程国家重点实验室，陕西，西安， 710054 
+3. 地理国情监测国家测绘地理信息局工程技术研究中心，陕西，西安， 710054
+
+#include <Eigen/Dense> 	
+#include <Eigen/QR>
+#include <Eigen/Eigen>
+
+using namespace Eigen;
+using namespace Eigen::internal;
+using namespace Eigen::Architecture;
+附加目录：
+D:\Documents\Visual Studio 2013\eigen3
+
+
+
+
+origin 先激活工作薄窗口，在点击 file-import-excel
+
+巭(gu)孬(nao)嫑(biao)夯(hang)昆(kun)
+
+2018-10-10
+-----------------------
+罗思龙
+长安大学 地质工程与测绘学院 710054
+Luo Silong
+School of Geological Engineering and Geomatics,
+Chang'an University, Xi'an 710054, PR China
+Research Interests:GNSS data processing, Advanced RAIM
+E-mail: luosilong_xian@126.com 
+Cell phone: +86 (0) 18991303907
+
+2019-06-26
+----------------------------
+罗思龙
+中南大学地球科学与信息物理学院 地理信息科学系 410083
+Luo Silong, Doctoral candidate
+Department of Geographic Information Science
+School of Geosciences and Info-Physics
+Central South University, Changsha China, PR China, 410083
+Research Interests: Spatio-temporal Data Update, Artificial Intelligence
+E-mail: luosilong_xian@126.com 
+Cell phone: +86 (0) 19967920012

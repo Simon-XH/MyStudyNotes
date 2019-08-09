@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using System.Collections;//动态数组:其元素类型可以不一样,ArrayList
+using System.Collections.Generic;//泛型,List
+using System.IO;//文件操作
+using System.Diagnostics;//程序调试，debug
+
+college, university, institute, school, academy 
+这些名词均含有“学院，大学”之意。 
+college〓多指大学内的学院，分科学院或科目较少的高等学校。 
+university〓主要指综合大学，一般由多个学院组成。当泛指大学时通常用college表示。 
+institute〓指设立有专门学科的学院，如外语学院、地质学院、建筑学院等。 
+school〓指大学所属的学院或系。 
+academy〓指(高等)专科院校或研究专门学术的学校。

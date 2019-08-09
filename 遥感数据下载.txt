@@ -1,0 +1,15 @@
+http://www.gscloud.cn/
+这个网址可以免费下载landsat影像,分辨率最高是Landsat 8 的影像，30m.但Landsat8影像融合之后可以达到15m的分辨率。
+username:luosilong_xian@126.com  or  SimonXH
+password:2787281lsl
+
+https://scihub.copernicus.eu/dhus/#/home
+这个可以下载senmtinel数据，分辨率最高是10m不同波段的分辨率不一样,
+但是这个数据不能用ENVI处理，需要用专门的软件SNAP进行处理.
+
+高分影像(5m,3m,1m):需要购买
+http://www.kosmos-imagemall.com/
+高分影像我一般用的是worldview和QuickBird,但是好像Geoeye分辨率也很高
+
+
+天地图 OSM

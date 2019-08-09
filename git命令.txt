@@ -1,0 +1,43 @@
+Simon-XH:2787281lsl@      //这个加到本地仓库的前面
+
+git操作的三步：1.新建  2.提交到暂存区   3.提交到仓库（完全开源） 4.提交到远程仓库(github)
+
+//----git本地操作-------------
+git config --global user.name 'Simon-XH'     //链接到自己的账户
+git config --global user.email 'luosilong_xian@126.com'  
+git madir foldername   //新建项目文件夹
+cwd               //查看当前路径
+cd  foldername    //进入文件夹
+git init          //创建参考并初始化
+touch test.cpp    //在仓库中创建文件test.cpp    //如在windows下也可以直接右键进行进入文件夹，创建文件夹和文件等操作
+git status        //查看当前状态
+git add test.cpp  //文件添加到暂存区
+git status        //查看当前状态
+git commit -m 'descripyion of commit'  //暂存区文件提交到仓库并描述
+git status        //查看当前状态
+rm -rf test.cpp   //删除文件
+git rm test.cpp   //删除文件
+git commit -m 'descripyion of commit'  //描述
+
+//----git远程操作-------------与github联系起来------------------------完整流程
+git clone 网址（在github有链接）
+cd 文件名         //进入克隆的项目中
+git init          //创建本地仓库并初始化，若已有，则不需要
+git config --global user.name 'Simon-XH'     //链接到自己的账户
+git config --global user.email 'luosilong_xian@126.com' 
+touch test.cpp    //在仓库中创建文件test.cpp    //如在windows下也可以直接右键进行进入文件夹，创建文件夹和文件等操作
+git status        //查看当前状态
+git add test.cpp  //文件添加到暂存区
+git status        //查看当前状态
+git commit -m 'descripyion of commit'  //暂存区文件提交到仓库并描述
+git status        //查看当前状态
+//去.git本地仓库将config用记事本打开，然后将账号信息【Simon-XH:2787281lsl@】加到本地仓库
+git push          //将本地仓库同步到github仓库
+
+//-----个人站点--------------------
+https://Simon-XH.github.io
+1)创建个人站点->新建仓库(注：仓库名必须是 【用户名.github.io】
+2)在仓库下新建index.html的文件即可
+
+仓库（项目）站点
+https://Simon-XH.github.io/test     //在setting里，Github page 那里设置，使用markdown语法

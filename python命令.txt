@@ -1,0 +1,4 @@
+1. 关于如何运行.ipynb文件
+
+cmd中输入：jupyter notebook
+先弹出的页面upload这个.ipynb后缀的文件，然后点击打开它，即可运行

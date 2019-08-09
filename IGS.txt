@@ -1,0 +1,118 @@
+IGS站观测数据下载网站： 
+ftp://igscb.jpl.nasa.gov      （不可用）
+ftp://lox.ucsd.edu内插          (可用)
+ftp://gps.alaska.edu           （可用）
+https://gps.stanford.edu/resources/overview    //---斯坦福大学GPS Lab网址:MAAST,文献等资料
+
+http://ac.scmor.com/    //google 镜像网址，下载外文文献
+
+IGS站信息浏览：  http://sopac.ucsd.edu （可用）
+
+武汉大学IGS数据下载：
+ftp://igs.gnsswhu.cn/pub/gnss/mgex/daily/rinex3/         （下载rinex3.0以上多系统导航文件《含北斗》） 
+
+常用以下:
+
+http://ac.scmor.com/
+http://sci-hub.ac/
+
+--------------------------------------------------------------
+ *****   ftp://garner.ucsd.edu/   （可用） 推荐 GAMIT数据下载
+ *****   观测文件.d : ftp://garner.ucsd.edu/pub/rinex/2017/001/
+ *****   导航文件.n : ftp://garner.ucsd.edu/pub/nav/2017/001/
+
+--------------------------------------------------------------
+ftp://cddis.gsfc.nasa.gov/pub/ （可用） 下载广播星历
+http://124.205.50.178/Product/TreePage/tree/cate_id  (IGMAS)
+
+https://www.navcen.uscg.gov/   美国GPS官方下载卫星历书,只有GPS卫星，含以往数据,导入格式时选择YUMA
+
+ftp://ftp.trimble.com/pub/eph/   天宝提供的GNSS历书，只有当前数据,导入格式时选择 Almanac
+
+daej  靠近青岛，韩国的
+twtf  台湾
+chan  长春
+bjfs  北京
+shao  上海
+whun  武汉  (无)
+xian  西安 （无）
+
+以下网址上可以下载各IGS站的rinex文件以及各IGS部门的轨道产品（sp3,clk,erp等等），以及广播星历
+ftp://garner.ucsd.edu/products/1930/   文件按GPS周分类
+ftp://igs.gnsswhu.cn/pub/gnss/products/mgex/
+
+
+数据格式：
+
+.n 导航文件 
+.p 混合星座版本导航文件
+.g GLONASS导航电文
+
+.o 观测文件
+.d 观测文件（压缩形式）
+.m 气象数据文件 
+.s 星基增强卫星文件
+.rnx 导航文件
+
+https://www.geodesy.noaa.gov/gps-toolbox/exist.htm
+共享代码平台，含许多定位相关代码下载
+
+//---------------------------------------------------------------------------
+科廷短基线数据下载
+http://saegnss2.curtin.edu.au/ldc/
+
+下载四系统综合精密星历
+ftp://igs.gnsswhu.cn/pub/gnss/products/mgex/
+
+下载综合广播星历
+ftp://cddis.gsfc.nasa.gov/gnss/data/campaign/mgex/daily/rinex3/2016/brdm
+
+下载天线表
+ftp://igs.org/pub/station/general/
+
+年积日查询
+http://www.gnsscalendar.com/
+
+GPS 卫星星座及原子钟类型
+http://www.navcen.uscg.gov/?Do=constellationStatus
+http://www2.unb.ca/gge/Resources/GPSConstellationStatus.txt
+
+北美CORS数据下载
+ftp://geodesy.noaa.gov/cors/
+
+查找IGS站坐标
+http://sopac.ucsd.edu/sector.shtml
+
+香港大地测量 
+http://www.geodetic.gov.hk/smo/gsi/programs/gb/GSS/satref/satref.htm
+GAMIT相关
+http://www.gnss.help/
+天宝spso下载
+http://www.spectraprecision.com/
+卫星系统信息
+http://mgex.igs.org/
+GPS&GLONASS
+https://www.glonass-iac.ru/en/GLONASS/index.php
+下载lambda源代码
+http://saegnss2.curtin.edu.au/~gnssweb/index.php?request=getlambda
+VS2017下载地址
+https://www.visualstudio.com/downloads/
+GPSworld
+http://gpsworld.com/
+GNSS三频短基线数据
+http://saegnss2.curtin.edu.au/ldc/
+//---------------------------------------------------------------------------
+STK
+两行星历数据下载网站：
+http://celestrak.com/GPS/almanac/Yuma/definition.asp
+
+参考注释：
+http://blog.163.com/chen_xscc/blog/static/118142738200942665433369/
+
+轨道预报模型:
+http://blog.csdn.net/stk10/article/details/8790868
+
+人造地球卫星运转周期T（秒）与圆轨道半径或椭圆轨道半长轴R（米）之间的关系可用下列公式计算：
+R=（GM·T^2／4π^2）^（1／3）
+其中，GM=398.60047×10^12，
+代入各常数后计算得知，R=21613.546×T^2/3

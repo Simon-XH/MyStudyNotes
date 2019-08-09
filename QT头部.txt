@@ -1,0 +1,18 @@
+greaterThan(QT_MAJOR_VERSION,4):QT+=widgets
+
+#include<QApplication>
+//#include<QtWidgets>
+#include<QDialog>
+#include<QLabel>
+#include<QWidget>
+
+int main(int argc,char *argv[])
+{
+    QApplication a(argc,argv);
+
+
+
+    return a.exec();
+}
+
+ctrl+U ctrl+I
