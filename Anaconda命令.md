@@ -20,7 +20,7 @@ Anaconda入门网址：[http://docs.anaconda.com/anaconda/user-guide/getting-sta
 例如链接到清华大学的镜像服务器[https://mirrors.tuna.tsinghua.edu.cn/](https://mirrors.tuna.tsinghua.edu.cn/),
 >  找到python安装目录下的：`\Lib\site-packages\pip\models\index.py`文件，并将PYPI的值改为所需要的源网址  
 `#PyPI = Index('https://pypi.python.org/')`  
-`PyPI = Index('https://pypi.douban.com/') `   
+`PyPI = Index('https://mirrors.tuna.tsinghua.edu.cn/') `   
 ![111.jpg](https://upload-images.jianshu.io/upload_images/18891803-32fd90447a5ca0ea.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/h/300/w/400)
 ## 5.常用python库的安装方法  
 **pip安装**  
