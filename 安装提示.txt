@@ -1,0 +1,33 @@
+注意，首先需要下载可兼容的版本组合，例如：
+-----------------------------------------------
+1）Python 3.5.2 
+   Anaconda 4.2.0 (64-bit) 
+   tensorflow.version 1.4.0
+
+2）python3.6.5 + anaconda3-5.2.0
+
+3）python3.7.0 + anaconda3-5.3.0或5.3.1
+-----------------------------------------------
+Python下载网址：https://www.python.org/   选择Windows x86-64 executable installer可执行文件(*.exe)方式安装版
+Anaconda下载网址：https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
+
+参考这个博客安装Anaconda和Tensorflow 
+https://blog.csdn.net/qq_16257817/article/details/75001854
+------------------------------------------------
+pip可能需要更新，在安好Tensorflow后按照其提示安装pip即可
+------------------------------------------------
+conda list   查看anaconda安装好的程序包
+
+安装好测试Tensorflow，若运行以下代码成功则表示一切顺利
+import tensorflow as tf
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()
+sess.run(hello)
+a = tf.constant(10)
+b = tf.constant(32)
+sess.run(a + b)
+sess.close()
+------------------------------------------------
+若出现问题(CPU太low，不能兼容Tensorflow)
+Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+自行百度。
